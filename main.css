@@ -67,7 +67,7 @@ ul li a {
 }
 
 .hero-section img {
-    width: 300px;
+    max-width: 400px;
 }
 
 .some-text p{
@@ -81,3 +81,27 @@ ul li a {
     margin-top: 15px;
     background-color: #3882f6;
 }
+
+
+.section .container{
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards .card{
+    max-width: 200px;
+}
+
+.cards .card img {
+    width: 100%;
+}
+
