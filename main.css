@@ -95,6 +95,7 @@ ul li a {
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .cards .card{
