@@ -99,11 +99,13 @@ ul li a {
 }
 
 .cards .card{
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .cards .card img {
     width: 100%;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
 }
 
 .quote {
@@ -123,7 +125,8 @@ ul li a {
 }
 
 .call-to-action {
-    padding: 50px;
+    padding: 50px 150px;
+    border-radius: 100px;
 }
 
 .call-to-action .container {
