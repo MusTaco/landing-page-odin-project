@@ -120,3 +120,35 @@ ul li a {
 .quote h5 {
     text-align: right;
 }
+
+.call-to-action {
+    padding: 50px;
+}
+
+.call-to-action .container {
+    background-color: #3882f6;
+    padding: 30px 0;
+    color: #ccc;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.lower button {
+    padding: 5px 20px;
+    border: none;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: #e5e7eb;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+}
